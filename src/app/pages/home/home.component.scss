@@ -1,0 +1,88 @@
+.home_container {
+    background-color: black;
+    height: 100dvh;
+
+    .home__header {
+        text-align: center;
+        font-size: 3rem;
+
+        h1 {
+            color: white;
+            font-family: 'Hero';
+            font-weight: 100;
+            font-size: 6rem;
+        }
+    }
+
+    .home__choice {
+        background-image: url('../../../assets/images/morpheu.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 800px;
+        animation: sparky 7s infinite alternate;
+
+    }
+
+    .button__group {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+            padding: 1rem;
+            cursor: pointer;
+            border-radius: 7px;
+            width: 200px;
+            border: 1px solid red;
+            color: white;
+            text-align: center;
+            background-color: transparent;
+            box-shadow: 3px 3px 13px 2px red;
+            transition: 1s;
+
+            &:hover {
+                background-color: red;
+            }
+
+            &.devs {
+                border-color: blue;
+                box-shadow: 3px 3px 13px 2px blue;
+
+            }
+
+            &.devs:hover {
+                background-color: blue;
+
+            }
+
+
+        }
+    }
+}
+
+
+@keyframes sparky {
+    0% {
+        filter: brightness(0.4);
+    }
+
+    50% {
+        filter: brightness(1);
+    }
+
+    100% {
+        filter: brightness(2);
+    }
+}
+
+@media (max-width:450px) {
+    .button__group {
+        flex-direction: column;
+
+        a {
+            margin-top: 40px;
+            width: 90% !important;
+        }
+    }
+}
