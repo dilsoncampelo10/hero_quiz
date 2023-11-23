@@ -1,5 +1,5 @@
 {
-  "title":"Descubra qual herói você seria",
+  "title":"Descubra qual herói combina com você",
   "questions":[
     {
       "id":1,
@@ -58,10 +58,10 @@
     }
   ],
   "results":{
-    "A": "Batman",
-    "B": "Super Man",
-    "C": "Mulher Maravilha",
-    "D": "Homem de Ferro",
-    "E": "Homem Aranha"
+    "A": "https://stories.recreio.com.br/fatos-curiosos-sobre-o-batman/assets/1.jpeg",
+    "B": "https://t.ctcdn.com.br/jaxkCpBbqCE40hcalaiOPK6TkuA=/768x432/smart/i677638.jpeg",
+    "C": "https://blog.estantevirtual.com.br/wp-content/uploads/2021/03/Capa-blog-segunda-1-4-800x445.jpg",
+    "D": "https://br.web.img3.acsta.net/r_654_368/newsv7/19/02/08/16/58/1140437.jpg",
+    "E": "https://dreamsparkshow.com.br/wp-content/uploads/2021/12/Homem-Aranha-Dreamland-Museu-de-Cera-3-1024x686.png"
   }
 }

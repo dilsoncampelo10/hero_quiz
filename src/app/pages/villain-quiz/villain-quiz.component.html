@@ -1,37 +1,32 @@
 <section class="human_quiz_container">
 
   <header class="human_quiz__header">
-      <h1>Humano QUIZ</h1>
-      <p>Descubra qual seu nome de herói baseado em suas escolhas de vida</p>
+      <h1>VILÃO QUIZ</h1>
+      <p>{{title}}</p>
   </header>
   <aside class="human_quiz_back">
     <a [routerLink]="['/']">&lt; &lt; Voltar</a>
   </aside>
-  <main class="human_quiz__questions">
-      <form>
+  <main class="human_quiz__questions" *ngIf=!finished>
+      <form >
           <div class="human_quiz____question">
-              <h3>Qual capital do Brasil?</h3>
+              <h3>{{questionSelected.question}}</h3>
           </div>
           <div class="human_quiz____options">
-              <button type="button">
-                Azul
-              </button>
-              <button>
-                Azul
-              </button>
-              <button>
-                Azul
-              </button>
-              <button>
-                Azul
-              </button>
+            <button type="button" *ngFor="let option of questionSelected.options; let i = index"
+            (click)="playerChoose(option.alias)"
+            class="btn-option">
+              {{option.name}}
+            </button>
+
           </div>
       </form>
   </main>
-  <footer class="human_quiz__footer">
+  <footer class="human_quiz__footer" *ngIf=finished>
       <div class="human_quiz___result">
           <h2>Seu Resultado é </h2>
-          <p>Doutor(a) Cafeína</p>
+          <img style="width: 100%;" src="{{answerSelected}}"/>
       </div>
+    <a href="/villain/quiz">Jogar Novamente</a>
   </footer>
 </section>

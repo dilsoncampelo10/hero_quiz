@@ -10,7 +10,7 @@
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../../../assets/images/humanback.jpg');
+    background-image: url('../../../assets/images/devback.jpg');
     h1{
       font-family: 'HeroItalic';
       font-size: 5rem;
@@ -62,11 +62,16 @@
           padding: 20px;
           cursor: pointer;
           border-radius: 5px;
+          box-shadow: 3px 3px 5px 2px #56D3FF;
           border-width: 1px;
           font-size: 1rem;
           &:hover{
             background-color: rgb(219, 214, 214);
           }
+        }
+        button:last-child{
+          grid-column: 1 / span 2;
+
         }
       }
     }
@@ -75,6 +80,9 @@
 .human_quiz__footer{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
 
   .human_quiz___result{
     background-color: white;
@@ -89,6 +97,13 @@
       margin-top: 20px;
       font-size: 2rem;
     }
+  }
+  a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgb(0, 225, 255);
+    padding: 20px 50px;
   }
 }
 }

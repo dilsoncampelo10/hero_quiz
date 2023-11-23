@@ -1,5 +1,5 @@
 {
-  "title":"Descubra qual vilão você seria",
+  "title":"Descubra qual vilão combina com você",
   "questions":[
     {
       "id":1,
@@ -58,10 +58,10 @@
     }
   ],
   "results":{
-    "A": "Coringa",
-    "B": "Alerquina",
-    "C": "Fênix Negra",
-    "D": "Thanos",
-    "E": "Duende Verde"
+    "A": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2019/02/27/99fa0205-91aa-47b1-adcd-e6eb2b282c13/vilao-coringa-cinemas-01",
+    "B": "https://vivariomarrecife.com.br/wp-content/uploads/2019/10/Arlerquina-ok.jpg",
+    "C": "https://jpimg.com.br/uploads/2018/03/fenix-negra.jpg",
+    "D": "https://nishiweb.com.br/animecomics/images/upload/507.jpg",
+    "E": "https://i0.wp.com/atualinerd.com.br/wp-content/uploads/2021/12/Duende-Verde-Pior-Inimigo-do-Homem-Aranha-1.png?fit=650%2C365&ssl=1"
   }
 }
