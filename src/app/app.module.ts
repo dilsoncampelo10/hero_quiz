@@ -4,21 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { DevQuizComponent } from './pages/dev-quiz/dev-quiz.component';
-import { HumanQuizComponent } from './pages/human-quiz/human-quiz.component';
+import { HeroQuizComponent } from './pages/hero-quiz/hero-quiz.component';
+import { VillainQuizComponent } from './pages/villain-quiz/villain-quiz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    DevQuizComponent,
-    HumanQuizComponent
+    HeroQuizComponent,
+    VillainQuizComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,67 @@
+{
+  "title":"Descubra qual vilão você seria",
+  "questions":[
+    {
+      "id":1,
+      "question": "Escolha um poder",
+      "options":[
+        {"id": 1, "name":"Fogo", "alias":"C"},
+        {"id": 2, "name":"Hipnóse", "alias":"A"},
+        {"id": 3, "name":"Soltar ácido", "alias":"B"},
+        {"id": 4, "name":"Voar", "alias":"E"},
+        {"id": 5, "name":"Força", "alias":"D"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Escolha um objeto",
+      "options":[
+        {"id": 1, "name":"Martelo", "alias":"B"},
+        {"id": 2, "name":"Balança", "alias":"D"},
+        {"id": 3, "name":"Espelho", "alias":"C"},
+        {"id": 4, "name":"Galinha de borracha", "alias":"A"},
+        {"id": 5, "name":"Gorro", "alias":"E"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Escolha uma fruta",
+      "options":[
+        {"id": 1, "name":"Maçã", "alias":"D"},
+        {"id": 2, "name":"Uva", "alias":"E"},
+        {"id": 3, "name":"Melancia", "alias":"A"},
+        {"id": 4, "name":"Laranja", "alias":"C"},
+        {"id": 5, "name":"Morango", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Escolha um animal",
+      "options":[
+        {"id": 1, "name":"Hiena", "alias":"A"},
+        {"id": 2, "name":"Pardal", "alias":"C"},
+        {"id": 3, "name":"Guepardo", "alias":"B"},
+        {"id": 4, "name":"Coiote", "alias":"E"},
+        {"id": 5, "name":"Panda", "alias":"D"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Escolha uma profissão",
+      "options":[
+        {"id": 1, "name":"Psicólogo", "alias":"B"},
+        {"id": 2, "name":"Programador", "alias":"A"},
+        {"id": 3, "name":"Empresário", "alias":"E"},
+        {"id": 4, "name":"Músico", "alias":"D"},
+        {"id": 5, "name":"Cozinheiro", "alias":"C"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Coringa",
+    "B": "Alerquina",
+    "C": "Fênix Negra",
+    "D": "Thanos",
+    "E": "Duende Verde"
+  }
+}

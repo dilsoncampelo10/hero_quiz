@@ -1,0 +1,67 @@
+{
+  "title":"Descubra qual herói você seria",
+  "questions":[
+    {
+      "id":1,
+      "question": "Escolha uma habilidade",
+      "options":[
+        {"id": 1, "name":"Inteligência", "alias":"A"},
+        {"id": 2, "name":"Super Força", "alias":"C"},
+        {"id": 3, "name":"Super Sentidos", "alias":"E"},
+        {"id": 4, "name":"Voar", "alias":"B"},
+        {"id": 5, "name":"Soltar raios pelas mãos", "alias":"D"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Escolha um animal",
+      "options":[
+        {"id": 1, "name":"Gato", "alias":"A"},
+        {"id": 2, "name":"Porco", "alias":"C"},
+        {"id": 3, "name":"Cachorro", "alias":"B"},
+        {"id": 4, "name":"Golfinho", "alias":"D"},
+        {"id": 5, "name":"Macaco", "alias":"E"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Escolha uma arma",
+      "options":[
+        {"id": 1, "name":"Espada", "alias":"C"},
+        {"id": 2, "name":"Vou no soco", "alias":"B"},
+        {"id": 3, "name":"Faca", "alias":"A"},
+        {"id": 4, "name":"Mísseis", "alias":"D"},
+        {"id": 5, "name":"Garras de aço", "alias":"E"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Escolha uma comida",
+      "options":[
+        {"id": 1, "name":"Pizza", "alias":"D"},
+        {"id": 2, "name":"Nachos", "alias":"A"},
+        {"id": 3, "name":"Hamburguer", "alias":"E"},
+        {"id": 4, "name":"Bife", "alias":"B"},
+        {"id": 5, "name":"Sorvete", "alias":"C"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Escolha um lugar",
+      "options":[
+        {"id": 1, "name":"Castelo Assombrado", "alias":"A"},
+        {"id": 2, "name":"Fazenda tranquila", "alias":"B"},
+        {"id": 3, "name":"Floresta Tropical", "alias":"C"},
+        {"id": 4, "name":"Cidade Grande", "alias":"E"},
+        {"id": 5, "name":"Centro Tecnológico", "alias":"D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Batman",
+    "B": "Super Man",
+    "C": "Mulher Maravilha",
+    "D": "Homem de Ferro",
+    "E": "Homem Aranha"
+  }
+}

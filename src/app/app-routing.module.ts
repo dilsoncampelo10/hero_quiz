@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
-import { DevQuizComponent } from './pages/dev-quiz/dev-quiz.component';
-import { HumanQuizComponent } from './pages/human-quiz/human-quiz.component';
+import { HeroQuizComponent } from './pages/hero-quiz/hero-quiz.component';
+import { VillainQuizComponent } from './pages/villain-quiz/villain-quiz.component';
 
 const routes: Routes = [
   {
@@ -10,12 +10,12 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'dev/quiz',
-    component: DevQuizComponent
+    path: 'hero/quiz',
+    component: HeroQuizComponent
   },
   {
-    path: 'human/quiz',
-    component: HumanQuizComponent
+    path: 'villain/quiz',
+    component: VillainQuizComponent
   }
 ];
 
