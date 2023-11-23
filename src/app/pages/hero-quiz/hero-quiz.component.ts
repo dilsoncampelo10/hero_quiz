@@ -67,4 +67,7 @@ export class HeroQuizComponent implements OnInit {
     return result
   }
 
+  reload(){
+    location.reload()
+  }
 }

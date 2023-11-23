@@ -65,4 +65,8 @@ export class VillainQuizComponent implements OnInit{
 
     return result
   }
+
+  reload(){
+    location.reload()
+  }
 }
