@@ -1,12 +1,10 @@
-.human_quiz_container{
-
+.villain_quiz_container{
   background-color: rgb(212, 212, 212);
   min-height: 100dvh;
 
-  .human_quiz__header{
+  .villain_quiz__header{
     text-align: center;
     color: white;
-
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +22,7 @@
       font-size: 2rem;
     }
   }
-  .human_quiz_back{
+  .villain_quiz_back{
     text-align: center;
     margin-top: 20px;
     a{
@@ -37,7 +35,7 @@
       }
     }
   }
-  .human_quiz__questions{
+  .villain_quiz__questions{
     display: flex;
     justify-content: center;
     padding: 50px 0;
@@ -50,10 +48,10 @@
       text-align: center;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.534);
       padding: 20px 5px;
-      .human_quiz____question{
+      .villain_quiz____question{
         h3{font-size: 2rem;}
       }
-      .human_quiz____options{
+      .villain_quiz____options{
         display: grid;
         grid-template-columns: 2fr 2fr;
         gap: 20px;
@@ -77,14 +75,14 @@
     }
   }
 
-.human_quiz__footer{
+.villain_quiz__footer{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 30px;
 
-  .human_quiz___result{
+  .villain_quiz___result{
     background-color: white;
     width: 50%;
     text-align: center;
@@ -109,20 +107,21 @@
 }
 }
 @media (max-width:450px) {
-  .human_quiz__questions{
+  .villain_quiz__questions{
     padding: 50px 20px !important;
 
-    .human_quiz____options{
-      grid-template-columns: 1fr !important;
+    .villain_quiz____options{
+      display: flex !important;
+      flex-direction: column !important;
     }
     form{
       width: 100% !important;
     }
 
   }
-  .human_quiz__footer{
+  .villain_quiz__footer{
     padding: 20px ;
-    .human_quiz___result{
+    .villain_quiz___result{
       width: 100% !important;
     }
   }

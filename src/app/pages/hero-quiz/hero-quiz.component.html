@@ -1,18 +1,18 @@
-<section class="dev_quiz_container">
+<section class="hero_quiz_container">
 
-  <header class="dev_quiz__header">
+  <header class="hero_quiz__header">
       <h1>HERÓI QUIZ</h1>
       <p>{{title}}</p>
   </header>
-  <aside class="dev_quiz_back">
+  <aside class="hero_quiz_back">
     <a [routerLink]="['/']">&lt; &lt; Voltar</a>
   </aside>
-  <main class="dev_quiz__questions" *ngIf=!finished>
+  <main class="hero_quiz__questions" *ngIf=!finished>
       <form>
-          <div class="dev_quiz____question" >
+          <div class="hero_quiz____question" >
               <h3>{{questionSelected.question}}</h3>
           </div>
-          <div class="dev_quiz____options">
+          <div class="hero_quiz____options">
               <button type="button" *ngFor="let option of questionSelected.options; let i = index"
               (click)="playerChoose(option.alias)"
               class="btn-option">
@@ -22,8 +22,8 @@
           </div>
       </form>
   </main>
-  <footer class="dev_quiz__footer" *ngIf=finished>
-      <div class="dev_quiz___result">
+  <footer class="hero_quiz__footer" *ngIf=finished>
+      <div class="hero_quiz___result">
           <h2>Seu Resultado é </h2>
           <img style="width: 100%;" src="{{answerSelected}}"/>
       </div>

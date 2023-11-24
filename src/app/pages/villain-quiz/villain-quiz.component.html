@@ -1,18 +1,18 @@
-<section class="human_quiz_container">
+<section class="villain_quiz_container">
 
-  <header class="human_quiz__header">
+  <header class="villain_quiz__header">
       <h1>VILÃO QUIZ</h1>
       <p>{{title}}</p>
   </header>
-  <aside class="human_quiz_back">
+  <aside class="villain_quiz_back">
     <a [routerLink]="['/']">&lt; &lt; Voltar</a>
   </aside>
-  <main class="human_quiz__questions" *ngIf=!finished>
+  <main class="villain_quiz__questions" *ngIf=!finished>
       <form >
-          <div class="human_quiz____question">
+          <div class="villain_quiz____question">
               <h3>{{questionSelected.question}}</h3>
           </div>
-          <div class="human_quiz____options">
+          <div class="villain_quiz____options">
             <button type="button" *ngFor="let option of questionSelected.options; let i = index"
             (click)="playerChoose(option.alias)"
             class="btn-option">
@@ -22,8 +22,8 @@
           </div>
       </form>
   </main>
-  <footer class="human_quiz__footer" *ngIf=finished>
-      <div class="human_quiz___result">
+  <footer class="villain_quiz__footer" *ngIf=finished>
+      <div class="villain_quiz___result">
           <h2>Seu Resultado é </h2>
           <img style="width: 100%;" src="{{answerSelected}}"/>
       </div>
